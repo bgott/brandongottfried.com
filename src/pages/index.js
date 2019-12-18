@@ -4,12 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import pic01 from '../assets/images/img_01.jpg'
+import pic02 from '../assets/images/img_01.jpg'
+import pic03 from '../assets/images/img_01.jpg'
+import pic04 from '../assets/images/img_01.jpg'
+import pic05 from '../assets/images/img_01.jpg'
+import pic06 from '../assets/images/img_01.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Brandon Gottfried"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Brandon Gottfried 2019' },
+                        { name: 'keywords', content: 'portfolio, resume, contact' },
                     ]}
                 >
                 </Helmet>
@@ -36,7 +36,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Tempus</h3>
                                 <p>feugiat amet tempus</p>

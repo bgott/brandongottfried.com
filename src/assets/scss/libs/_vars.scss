@@ -7,7 +7,7 @@
 	$duration: (
 		menu:				0.35s,
 		transition:			0.2s,
-		banner:				2.5s
+		banner:				1.5s
 	);
 
 // Size.
@@ -43,5 +43,12 @@
 		accent3:			#ec8d81,
 		accent4:			#e7b788,
 		accent5:			#8ea9e8,
-		accent6:			#87c5a4
+		accent6:			#87c5a4,
+
+		/* Custom Additions */
+		bg-intro: 			rgba(36,39,46,1.0),
+		bg-type1: 			rgba(255,255,255,1.0),
+		bg-type2:			#F4F6F7,
+		fc-one: 			rgba(0,0,0,0.87),
+
 	);

@@ -1,0 +1,92 @@
+/* Project Sections */
+
+.project-highlights {
+    /*
+    border-top: 0 !important;
+    & + * {
+        border-top: 0 !important;
+    }
+    */
+
+
+    > section {
+        @include vendor('display', 'flex');
+        @include vendor('flex-direction', 'row');
+
+        > .type-intro {
+            background-color: _palette(bg-intro);
+        }
+        > .type-one {
+            background-color: _palette(bg-type1);
+            h2, h3, h4, p, ol, li {
+                color:_palette(fc-one);
+            }
+            @include padding(0em, 0em, [0,0,8,0]);
+            width:100%;
+        }
+        > .type-two {
+            background-color: _palette(bg-type2);
+            h2, h3, h4, p, ol, ul, li {
+                color:_palette(fc-one);
+            }
+            ol {
+                list-style: upper-roman;
+            }
+        }
+        .content {
+            @include padding(5em, 10em);
+            .inner {
+                margin: auto;
+            }
+            > .grid-wrapper {
+                @include padding(0em, 0em, [0,0,0,5]);
+            }
+        }
+        .img-full {
+			background-position: center center;
+			background-size: cover;
+			border-radius: 0;
+			display: block;
+			position: relative;
+			width: 100%;
+
+			img {
+				border-radius: 0;
+				display: block;
+				width: 100%;
+			}
+        }
+        .image {
+            background-position: center center;
+            background-size: cover;
+            border-radius: 0;
+            display: block;
+            position: relative;
+
+            > .img-85 {
+                img {
+                    width: 85%;
+                }
+            }
+            > .img-100 {
+                img {
+                    width: 100%;
+                }
+            }
+            img {
+                border-radius: 0;
+                display: block;
+                margin: auto;
+            }
+
+            > .img-description {
+                text-align: center;
+            }
+        }
+
+    }
+
+    > .inner {
+        /*background-color: white;*/
+    }
+}
