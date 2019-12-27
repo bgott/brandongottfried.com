@@ -18,19 +18,26 @@
         }
         > .type-one {
             background-color: _palette(bg-type1);
-            h2, h3, h4, p, ol, li {
+            h2, h3, h4, h5, p, ol, li, q {
                 color:_palette(fc-one);
             }
-            @include padding(0em, 0em, [0,0,8,0]);
+            @include padding(0em, 0em, [0,0,2,0]);
             width:100%;
+
+            > .image {
+                @include padding(0em, 0em, [0,0,8,0]);
+            }
         }
         > .type-two {
             background-color: _palette(bg-type2);
-            h2, h3, h4, p, ol, ul, li {
+            h2, h3, h4, h5, p, ol, ul, li, q {
                 color:_palette(fc-one);
             }
             ol {
                 list-style: upper-roman;
+            }
+            #finale {
+                text-align: center;
             }
         }
         .content {
@@ -39,7 +46,48 @@
                 margin: auto;
             }
             > .grid-wrapper {
-                @include padding(0em, 0em, [0,0,0,5]);
+                @include padding(0em, 0em, [2,0,0,5]);
+            }
+
+            > .pullquote {
+
+                q {
+                    font-size: larger;
+                }
+                &:before {
+                    content: "";
+                    display: block;
+                    width: 40%;
+                    height: 0.05em;
+                    background: #cccccc;
+                    margin: auto;
+                    margin-top: 2em;
+                    margin-bottom:2em;
+                }
+
+                &:after {
+                    content: "";
+                    display: block;
+                    width: 40%;
+                    height: 0.05em;
+                    background: #cccccc;
+                    margin: auto;
+                    margin-top: 2em;
+                    margin-bottom:2em;
+                }
+            }
+
+            .results {
+                &:before {
+                    content: "";
+                    display: block;
+                    width: 50%;
+                    height: 0.05em;
+                    background: #cccccc;
+                    margin: auto;
+                    margin-top: 2em;
+                    margin-bottom:2em;
+                }
             }
         }
         .img-full {
@@ -65,10 +113,11 @@
 
             > .img-85 {
                 img {
-                    width: 85%;
+                    width: 100%;
+                    @include padding(0em, 0em, [0,3,0,3]);
                 }
             }
-            > .img-100 {
+            .img-100 {
                 img {
                     width: 100%;
                 }
@@ -81,12 +130,17 @@
 
             > .img-description {
                 text-align: center;
+                font-style: italic;
+            }
+
+        }
+        image, #quad {
+            background-color: _palette(bg-type3);
+            @include padding(0em, 0em, [0,3,8,3]);
+            img {
+                @include padding(0em, 0em, [2,0,2,0]);
             }
         }
 
-    }
-
-    > .inner {
-        /*background-color: white;*/
     }
 }
