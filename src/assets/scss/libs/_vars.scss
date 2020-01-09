@@ -21,6 +21,7 @@
 // Font.
 	$font: (
 		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family-alt:			('Helvetica Condensed', Helvetica),
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
 		weight-bold:		600,
@@ -30,8 +31,10 @@
 
 // Palette.
 	$palette: (
-		bg:					#242943,
-		bg-alt:				#2a2f4a,
+		bg:					rgba(255,255,255,1.0),
+		bg-alt:				#F4F6F7,
+		bg-alt2:			#FAFAFA,
+		bg-alt3:			#1C2127,
 		fg:					#ffffff,
 		fg-bold:			#ffffff,
 		fg-light:			rgba(244,244,255,0.2),
@@ -47,9 +50,8 @@
 
 		/* Custom Additions */
 		bg-intro: 			rgba(36,39,46,1.0),
-		bg-type1: 			rgba(255,255,255,1.0),
 		bg-type2:			#F4F6F7,
-		bg-type3:			rgba(250,250,250,1.0),
 		fc-one: 			rgba(0,0,0,0.87),
+		fc-intro:			#F3F5F6,
 
 	);

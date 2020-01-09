@@ -13,26 +13,39 @@
         @include vendor('display', 'flex');
         @include vendor('flex-direction', 'row');
 
-        > .type-intro {
+        .intro {
             background-color: _palette(bg-intro);
+            h1, p {
+                color: _palette(fc-intro);
+            }
         }
         > .type-one {
-            background-color: _palette(bg-type1);
-            h2, h3, h4, h5, p, ol, li, q {
-                color:_palette(fc-one);
-            }
-            @include padding(0em, 0em, [0,0,2,0]);
             width:100%;
-
             > .image {
                 @include padding(0em, 0em, [0,0,8,0]);
             }
         }
-        > .type-two {
-            background-color: _palette(bg-type2);
-            h2, h3, h4, h5, p, ol, ul, li, q {
-                color:_palette(fc-one);
+
+        > .type-three {
+            width:100%;
+            > .image {
+                @include padding(0em, 0em, [3,0,5,0]);
             }
+        }
+
+        > .type-five {
+            font-family: _font(family-alt);
+            margin-top:3em;
+            > .content {
+                text-align: center;
+                > .results {
+
+                }
+            }
+            background-color: _palette(bg-alt);
+        }
+        .alt-bg {
+            background-color: _palette(bg-alt);
             ol {
                 list-style: upper-roman;
             }
@@ -40,13 +53,24 @@
                 text-align: center;
             }
         }
+        .bg-alt2 {
+            background-color: _palette(bg-alt2);
+        }
+        .bg-alt3 {
+            background-color: _palette(bg-alt3);
+            > .img-description {
+                p {
+                    color: _palette(fc-intro);
+                }
+            }
+        }
         .content {
-            @include padding(5em, 10em);
+            @include padding(5em, 12em);
             .inner {
                 margin: auto;
             }
-            > .grid-wrapper {
-                @include padding(0em, 0em, [2,0,0,5]);
+            > .methodology {
+                @include padding(0em, 0em, [2,0,0,4]);
             }
 
             > .pullquote {
@@ -89,6 +113,19 @@
                     margin-bottom:2em;
                 }
             }
+
+            .product-insights {
+                .col-5, .col-7 {
+                    margin-top:auto;
+                    margin-bottom:auto;
+                    // padding-bottom:2em;
+                    // padding-top:2em;
+                    @include padding(2.5em, 0em);
+                }
+            }
+            #insights-upper.product-insights {
+                padding-bottom: 5em;
+            }
         }
         .img-full {
 			background-position: center center;
@@ -97,6 +134,10 @@
 			display: block;
 			position: relative;
 			width: 100%;
+
+            #tutorial {
+                padding-top:2em;
+            }
 
 			img {
 				border-radius: 0;
@@ -117,11 +158,13 @@
                     @include padding(0em, 0em, [0,3,0,3]);
                 }
             }
-            .img-100 {
+
+            > .img-75 {
                 img {
-                    width: 100%;
+                    width: 75%;
                 }
             }
+
             img {
                 border-radius: 0;
                 display: block;
@@ -131,8 +174,44 @@
             > .img-description {
                 text-align: center;
                 font-style: italic;
+                padding-top: 2em;
+                p {
+                    margin-bottom: 1em !important;
+                }
             }
+        }
 
+        .type-four {
+            #no-bottom-margin {
+                margin-bottom:0em !important
+            }
+            > .content {
+                padding-bottom: 0em !important;
+            }
+            > .sub-content {
+                @include padding(0em, 12em, (2,0,0,0));
+                p {
+                    margin-bottom: 0em !important;
+                }
+                margin: auto;
+            }
+            >.image {
+                padding-bottom:2em;
+                padding-top:0em;
+            }
+            .image,#share02 {
+                padding-top: 2em;
+            }
+        }
+
+        .img-full,#lifecycle {
+            padding-top: 2em;
+        }
+
+        .img-100 {
+            img {
+                width: 100%;
+            }
         }
         image, #quad {
             background-color: _palette(bg-type3);
