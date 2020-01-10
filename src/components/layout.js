@@ -5,6 +5,7 @@ import '../assets/scss/main.scss'
 import Header from './Header'
 import Menu from './Menu'
 import Contact from './Contact'
+import ContactBar from './ContactBar'
 import Footer from './Footer'
 
 class Layout extends React.Component {
@@ -41,9 +42,9 @@ class Layout extends React.Component {
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <div id="wrapper">
-                    <Header onToggleMenu={this.handleToggleMenu} />
+                    <ContactBar location="upper" />
                     {children}
-                    <Footer />
+                    <ContactBar location="lower" />
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />
             </div>

@@ -75,7 +75,7 @@ const PatientLink = () => (
             <section>
                 <div className="type-one">
                     <div className="content">
-                        <h2>Who is Medicom? What is Patient Link?</h2>
+                        <h2>Who is <span className="i">Medicom?</span> What is <span className="i">Patient Link?</span></h2>
                         <p>Medicom is transforming the way medical imaging and healthcare data is exchanged and accessed. Medicom’s flagship product — ImageX — is a peer- to-peer network for diagnostic image exchange and is built specifically for sharing images directly from one picture archiving and communication system (PACS) to another. ImageX eliminates the hassle of CDs, VPNs, and the cloud for inter-organizational data exchange.</p>
                         <p>Medicom’s Patient Link was borne of the quickly discovered need to further eliminate the hassle and inefficiency of CDs by utilizing this digitization to deliver imaging data to patients. Patient Link aimed to provide patients with digital on-demand access to their medical and diagnostic images. Facility staff could generate and distribute access codes which grant patients instant portal authentication. From there patients could view, download, and share their medical imaging data.</p>
                         <p>Patient Link struggled to scale alongside the evolution of Medicom’s other technologies. Outdated designs and a total absence of both iteration and improvement left Patient Link in a state of disharmony with the expectations of patients and healthcare providers. Core usability was challenged. Disparate features introduced serious complexities for patients. Application reliability and performance issues increased exponentially. Support was a nightmare.</p>
@@ -94,7 +94,7 @@ const PatientLink = () => (
                 <div className="alt-bg">
                     <div className="content">
                         <h4>The Challenge</h4>
-                        <h3>Recapture the Magic</h3>
+                        <h2>Recapture the Magic</h2>
                         <p>The original goal for Patient Link was straightforward — digitize the delivery of medical images to patients. However, the healthcare continuum is highly complex and increasingly disjointed. Simply providing patients with digital access to their medical images doesn’t solve the grander problem of image accessibility throughout the healthcare community. My ambition was to both design and build a strong product foundation that (1) met the needs of our rapidly evolving business and (2) fulfilled the expectations of a highly diverse base of users.</p>
                         <p>Our high level goals for version 2.0 were as follows:</p>
                         <ol>
@@ -102,7 +102,7 @@ const PatientLink = () => (
                             <li>Design an effective methodology for Patient Link users to share their images with healthcare professionals that (1) fits within the provider’s workflow and (2) utilizes the existing ImageX network infrastructure.</li>
                             <li>Design a procedural model for gathering user data for future product improvements.</li>
                         </ol>
-                        <h3>My Role</h3>
+                        <h2>My Role</h2>
                         <p>I led the product design throughout the entire project and collaborated closely with our two in-house engineers and our Chief Product Officer. As a ‘one man design army’ the roles I performed consisted of the following:</p>
 
                         <div className="grid-wrapper">
@@ -130,7 +130,7 @@ const PatientLink = () => (
                 <div className="type-one">
                     <div className="content">
                         <h4>Research & Analysis</h4>
-                        <h3>Methodology</h3>
+                        <h2>Methodology</h2>
                         <div className="methodology">
                             <div className="grid-wrapper">
                                 <div className="col-7">
@@ -165,7 +165,7 @@ const PatientLink = () => (
             <section>
                 <div className="type-one">
                     <div className="content">
-                        <h3>Field Research</h3>
+                        <h2>Field Research</h2>
                         <p>My primary objective in conducting field research was to gain insights beyond the aesthetic flaws in the application and dive deeper into functional inadequacies. It was presumed that I’d be giving the application a major face lift, but version 2 needed to be much more than sexy — it needed to be highly functional. Field research and subsequent usability testing was devised and conducted by myself with nine participants across a diverse set of backgrounds including: oncology and radiology physicians, healthcare facility administrators, medical records department staff, and patients. Tests were tailored to individuals’ variable usage of the product.</p>
                         <div className="pullquote">
                             <q>My goal was to better understand how users navigated and interacted with the application, where expectations fell short, and what workarounds were employed when the platform failed to meet users’ needs.</q>
@@ -201,7 +201,7 @@ const PatientLink = () => (
             <section>
                 <div className="type-one">
                     <div className="content">
-                        <h3>User Personas</h3>
+                        <h2>User Personas</h2>
                     </div>
                     <div className="image bg-alt2" id="quad">
                         <div className="grid-wrapper">
@@ -233,7 +233,7 @@ const PatientLink = () => (
                 <div className="type-one">
                     <div className="content">
                         <h4>Research Insights</h4>
-                        <h3>Functional Product Limitations</h3>
+                        <h2>Functional Product Limitations</h2>
                         <div id="insights-upper" className="grid-wrapper product-insights">
                                 <div className="col-5">
                                     <div className="img-100">
@@ -272,7 +272,7 @@ const PatientLink = () => (
                                 <p>Patient Link wasn’t designed in an integration-ready model for existing facility patient portals, resulting in redundant and highly cumbersome patient web portal experiences for end users.</p>
                             </div>
                         </div>
-                        <h3>Interface Usability Limitations</h3>
+                        <h2>Interface Usability Limitations</h2>
                         <div className="grid-wrapper product-insights">
                             <div className="col-5">
                                 <div className="img-100">
@@ -336,7 +336,7 @@ const PatientLink = () => (
                 <div className="type-four">
                     <div className="content">
                         <h4>The Re-Design</h4>
-                        <h3>Building a Design Language</h3>
+                        <h2>Building a Design Language</h2>
                         <p>I required that my designs have the capacity to scale alongside the company’s growth. To achieve this, I focused on building a consistent design language that fits the needs of a diverse set of users, as well as scalable content modules that could be repurposed across other applications. This formed the basis of ensuring more efficient handoffs between design and development teams. Components included cards, list items, custom iconography, buttons, switches, and many others.</p>
                     </div>
                     <div className="image bg-alt2">
@@ -350,7 +350,7 @@ const PatientLink = () => (
             <section>
                 <div className="type-four">
                     <div className="content" id="friendly-entrance">
-                        <h3>A Friendly Entrance</h3>
+                        <h2>A Friendly Entrance</h2>
                         <p>The application now presents users with a cohesive theme and a friendly interface. Attention is directed to screen sections requiring immediate attention or user input. Buttons and text are enlarged for our primarily older audience, and language is suited for patients with limited medical and technical knowledge, with more in-depth explanations available via Information tooltips.</p>
                     </div>
                     <div className="image">
@@ -389,7 +389,7 @@ const PatientLink = () => (
             <section>
                 <div className="type-four">
                     <div className="content">
-                        <h3>Functionality at Your Fingertips</h3>
+                        <h2>Functionality at Your Fingertips</h2>
                         <p>The application dashboard now presents users with a more ’action friendly’ view of their imaging studies datatable. Throughout the gathering of field data I identified three key metrics {'{'}among the roughly 25 available in DICOM metatada fields{'}'} that allow users to most quickly identify their intended actionable study: title {'{'}containing the name of the body part imaged{'}'}, institution {'{'}where the imaging study was performed{'}'}, and the date {'{'}of the exam{'}'}. Image rows are aptly organized according to these attributes in sortable columns.</p>
                         <p>Actions for each available study are accentuated with bright and elevated buttons, sporting familiar iconography. From here users can view their diagnostic reports and imaging studies, share them, and download them.</p>
                     </div>
@@ -429,7 +429,7 @@ const PatientLink = () => (
             <section>
                 <div className="type-four">
                     <div className="content">
-                        <h3>Improving Product Lifecycle</h3>
+                        <h2>Improving Product Lifecycle</h2>
                         <p>Study Retrieval allows users to fetch studies via access codes, and add them to an authenticated portal, thereby consolidating multiple imaging studies into a single account. Using Retrieve, patients and providers alike can store, manage, and share all of their desired imaging studies from one place. Users that have already authenticated into the portal with an access code now have the ability to sign up for a Patient Link account — without re-entering their access code — for easier future access.</p>
                     </div>
                     <div className="image bg-alt2">
@@ -491,7 +491,7 @@ const PatientLink = () => (
             <section>
                 <div className="type-four">
                     <div className="content">
-                        <h3>Improving Integration, Reducing Redundancy</h3>
+                        <h2>Improving Integration, Reducing Redundancy</h2>
                         <p>Many providers offer patient portals for their patients to perform various intake functions, complete administrative and history forms, update billing information, and communicate with staff. To drive holistic adoption of the Medicom solution, I designed and documented a REST-ful API that exports the core functionality of Patient Link to be embedded in existing patient portals. This way, patients already interacting with an existing patient portal can still view their images, share them with other providers, and download them if they wish, all without being forced into a separate portal.</p>
                     </div>
                     <div className="image bg-alt2">
@@ -504,9 +504,11 @@ const PatientLink = () => (
             <section>
                 <div className="type-four">
                     <div className="content">
-                        <h3>Enabling Data-Driven Decisions</h3>
+                        <h2>Enabling Data-Driven Decisions</h2>
                         <p>No matter how keen my initial product usability insights were, they were largely intuition-based. This made my field research critical — there was almost no other organized or structured data to analyze and operate upon. I set about crafting an in-depth user tracking plan to be implemented in Mixpanel (for which we’d already acquired a license for our other products). I also conducted Information Security research into Mixpanel data retention policies to ensure anonymity and data security surrounding any potentially exposed patient information.</p>
-                        <p>I wanted to set product goals, collect accurate data on product usability, identify trends in our users’ behavior, explore hypotheses, and take more informed action in the future.</p>
+                        <div className="pullquote">
+                            <q>I wanted to set product goals, collect accurate data on product usability, identify trends in our users’ behavior, explore hypotheses, and take more informed action in the future.</q>
+                        </div>
                         <p>My tracking plan is broken down here by product application section, user events, event triggers, KPIs, captured properties, and other elements. This user tracking plan provides our team valuable data-driven insights on which future product iterations will be based.</p>
                     </div>
                     <div className="image bg-alt3">
@@ -575,12 +577,12 @@ const PatientLink = () => (
                         <p>Hundreds of hours brainstorming, carefully planning, sketching, designing, and developing brought about our desired results for the launch of Patient Link 2.0. Our entire team was proud and excited to present the new face of Patient Link to our customers.</p>
                         <p>In the months following its launch, the redesign of the Medicom Patient Link application has had an overwhelmingly positive impact on product usability, experience, and reduced technical support workload, as well as a direct effect on successful customer acquisitions.</p>
                         <div className="results">
-                            <h5>TIME TO LOGIN DECREASED BY 34%</h5>
-                            <h5>TIME TO SHARE IMAGES DROPPED BY 46%</h5>
-                            <h5>USER ERROR RATE DECREASED BY 63%</h5>
-                            <h5>CONSECUTIVE RE-DOWNLOADS DROPPED BY 81%</h5>
-                            <h5>NUMBER OF SUPPORT CALLS DROPPED BY 52%</h5>
-                            <h5>ACCOUNTS HOSTING MULTIPLE STUDIES INCREASED BY 26%</h5>
+                            <h2>TIME TO LOGIN DECREASED BY 34%</h2>
+                            <h2>TIME TO SHARE IMAGES DROPPED BY 46%</h2>
+                            <h2>USER ERROR RATE DECREASED BY 63%</h2>
+                            <h2>CONSECUTIVE RE-DOWNLOADS DROPPED BY 81%</h2>
+                            <h2>NUMBER OF SUPPORT CALLS DROPPED BY 52%</h2>
+                            <h2>ACCOUNTS HOSTING MULTIPLE STUDIES INCREASED BY 26%</h2>
                         </div>
                     </div>
                 </div>
