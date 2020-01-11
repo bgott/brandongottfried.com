@@ -3,9 +3,10 @@
 .contact-bar {
     font-weight:100;
     font-size:16px;
-    height: 4.25em;
+    height: 5em;
     font-style: italic;
-    @include padding(2em, 5em);
+    @include padding(3em, 5em);
+
     .col-4 {
         text-align: center;
         img {
@@ -26,4 +27,5 @@
 
 .contact-bar#lower {
     color: black;
+    padding-bottom: 6em;
 }

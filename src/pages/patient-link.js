@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
-import img_01 from '../assets/images/img_01.jpg'
-import img_02 from '../assets/images/img_02.jpg'
-import img_03 from '../assets/images/img_03.jpeg'
-import img_04 from '../assets/images/img_04.jpeg'
-import img_05 from '../assets/images/img_05.jpeg'
-import img_06 from '../assets/images/img_06_01.jpg'
+import img_01 from '../assets/images/img_01.png'
+import img_02 from '../assets/images/img_02.png'
+import img_03 from '../assets/images/img_03.png'
+import img_04 from '../assets/images/img_04.png'
+import img_05 from '../assets/images/img_05.png'
+import img_06 from '../assets/images/img_06.png'
 import persona_1 from '../assets/images/persona_1.png'
 import persona_2 from '../assets/images/persona_2.png'
 import persona_3 from '../assets/images/persona_3.png'
@@ -110,8 +110,8 @@ const PatientLink = () => (
                                 <ul>
                                     <li>Researcher</li>
                                     <li>Experience Designer</li>
-                                    <li>Interface Designer</li>
                                     <li>Prototyper</li>
+                                    <li>Interface Designer</li>
                                 </ul>
                             </div>
                             <div className="col-6">
@@ -128,7 +128,7 @@ const PatientLink = () => (
             </section>
             <section>
                 <div className="type-one">
-                    <div className="content">
+                    <div className="content no-bottom-pad">
                         <h4>Research & Analysis</h4>
                         <h2>Methodology</h2>
                         <div className="methodology">
@@ -164,7 +164,7 @@ const PatientLink = () => (
             </section>
             <section>
                 <div className="type-one">
-                    <div className="content">
+                    <div className="content no-bottom-pad">
                         <h2>Field Research</h2>
                         <p>My primary objective in conducting field research was to gain insights beyond the aesthetic flaws in the application and dive deeper into functional inadequacies. It was presumed that I’d be giving the application a major face lift, but version 2 needed to be much more than sexy — it needed to be highly functional. Field research and subsequent usability testing was devised and conducted by myself with nine participants across a diverse set of backgrounds including: oncology and radiology physicians, healthcare facility administrators, medical records department staff, and patients. Tests were tailored to individuals’ variable usage of the product.</p>
                         <div className="pullquote">
@@ -172,7 +172,8 @@ const PatientLink = () => (
                         </div>
                         <p>Results were used to inform my design decisions in a data-based methodology and led to the final arrangement of application and system architecture as well as functional augmentations that were better suited to meet our users’ end goals.</p>
                     </div>
-                    <div className="image" id="quad">
+                    <div className="image alt-bg" id="quad">
+                        <div className="img-description"></div>
                         <div className="grid-wrapper">
                             <div className="col-6">
                                 <div className="img-100">
@@ -200,10 +201,10 @@ const PatientLink = () => (
             </section>
             <section>
                 <div className="type-one">
-                    <div className="content">
+                    <div className="content no-bottom-pad">
                         <h2>User Personas</h2>
                     </div>
-                    <div className="image bg-alt2" id="quad">
+                    <div className="image" id="quad">
                         <div className="grid-wrapper">
                             <div className="col-6">
                                 <div className="img-100">
@@ -511,7 +512,7 @@ const PatientLink = () => (
                         </div>
                         <p>My tracking plan is broken down here by product application section, user events, event triggers, KPIs, captured properties, and other elements. This user tracking plan provides our team valuable data-driven insights on which future product iterations will be based.</p>
                     </div>
-                    <div className="image bg-alt3">
+                    <div className="image bg-alt3" id="metrics">
                         <div className="img-description">
                             <p>Application entry metrics</p>
                         </div>

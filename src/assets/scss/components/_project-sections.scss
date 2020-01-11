@@ -56,6 +56,9 @@
                 }
             }
         }
+        .no-bottom-pad {
+            padding-bottom:0em !important;
+        }
         .content {
             @include padding(5em, 12em);
             h1,h2,h3,h4 {
@@ -223,6 +226,13 @@
                 padding-top: 2em;
             }
         }
+         #metrics {
+             .img-description {
+                 p {
+                     opacity:87%;
+                 }
+             }
+         }
 
         .img-full,#lifecycle {
             padding-top: 2em;
