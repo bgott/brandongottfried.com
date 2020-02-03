@@ -63,6 +63,7 @@ const PatientLink = () => (
                         <h1>Operation: Patient Link</h1>
                         <p>When first launched, Patient Link was a breath of fresh air for healthcare administrators — deliver patients digital access to their medical imaging at the click of a button. No longer would facility staff need to expend valuable time and resources burning images to discs. As customer needs evolved over time Medicom’s flagship product, ImageX, was iterated and improved upon while the Patient Link experience fell by the wayside — outdated, cumbersome, and non-intuitive.</p>
                         <p>I led an ambitious project to re-design Patient Link from the ground up for one of the fastest growing healthcare startups in the country.</p>
+                        <p id="nda">In the interest of protecting proprietary company information, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Medicom.</p>
                     </div>
                     <div className="image">
                         <div className="img-100">
